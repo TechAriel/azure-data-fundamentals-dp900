@@ -25,6 +25,7 @@ Sample Dataset: AdventureWorks
 
 Deployment completed successfully.
 
+![Database Created](screenshots/DatabaseCreated.png)
 ---
 
 ## Step 2 – Access Query Editor
@@ -33,6 +34,8 @@ Deployment completed successfully.
 2. Selected Query Editor (preview).
 3. Logged in using SQL admin credentials.
 4. Verified successful database connection.
+
+![Query Editor](screenshots/QueryEditor.png)
 
 ---
 
@@ -43,6 +46,8 @@ Deployment completed successfully.
    - SalesLT.Product
    - SalesLT.ProductCategory
 3. Identified foreign key relationship between Product and ProductCategory tables.
+
+![Db Tables](screenshots/DbTables.png)
 
 ---
 
@@ -60,6 +65,7 @@ Result:
 Note:
 In production systems, SELECT * is avoided due to performance considerations.
 
+![Select All](screenshots/SelectAll.png)
 ---
 
 ## Step 5 – Retrieve Specific Columns
@@ -73,6 +79,8 @@ Result:
 - Reduced output to relevant columns
 - Improved clarity
 - Demonstrated column-level selection
+
+![Select Columns](screenshots/SelectColumns.png)
 
 ---
 
@@ -93,6 +101,8 @@ Result:
 - Combined data from two related tables
 - Retrieved category names via foreign key
 - Demonstrated relational JOIN logic
+
+![Join Results](screenshots/JoinResults.png)
 
 ---
 
