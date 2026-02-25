@@ -19,3 +19,9 @@ Focus areas include:
 Provisioned Azure SQL Database with AdventureWorks sample data and executed relational SQL queries including JOIN operations.
 
 **Folder**: ./01-azure-sql-database-relational-exploration
+
+### **02 – Azure Storage Core Services:** 
+
+Explored Blob Storage, Data Lake Gen2 (hierarchical namespace), Azure Files, and Azure Tables with NoSQL entity modeling.
+
+**Folder**: ./02-azure-storage-core-services
