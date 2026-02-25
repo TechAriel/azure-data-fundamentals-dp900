@@ -1,30 +1,30 @@
 # Azure Storage Core Services
 
-This exercise explores core Azure Storage services as part of the Azure Data Fundamentals (DP-900) learning path.
+This project explores core Azure Storage services as part of the Azure Data Fundamentals (DP-900) learning path.
 
-## Services Explored
+## What This Project Covers
 
-- Azure Blob Storage (flat namespace)
+- Provisioning an Azure Storage Account
+- Blob Storage (flat namespace)
 - Azure Data Lake Storage Gen2 (hierarchical namespace)
-- Azure Files
-- Azure Tables (NoSQL key-value store)
+- Azure Files (SMB-based cloud file shares)
+- Azure Tables (NoSQL key-value storage)
 
-## Key Concepts
+## Key Concepts Demonstrated
 
-- Storage account provisioning (Standard, LRS)
+- Storage account configuration (LRS, Standard tier)
 - Virtual folders vs hierarchical namespace
-- Data Lake Gen2 upgrade
-- SMB-based file shares
-- PartitionKey and RowKey design
+- Enabling Data Lake Gen2 upgrade
+- File share provisioning and connectivity
+- PartitionKey and RowKey design in Table Storage
 - Schema flexibility in NoSQL systems
 
-## Engineering Relevance
+## Why This Matters
 
-This lab demonstrates how Azure Storage supports:
-
-- Object storage for analytics pipelines
+Understanding Azure Storage is foundational for:
+- Data engineering pipelines
 - Data lake architectures
-- Hybrid file workloads
-- Scalable NoSQL storage patterns
+- Scalable NoSQL workloads
+- Secure cloud data platform design
 
-Understanding these services is foundational for cloud-based data engineering.
+This lab builds practical knowledge of storing and organizing non-relational data in Azure.
