@@ -13,6 +13,8 @@ Key Decision:
 - LRS chosen for cost-effective lab setup
 - Separate resource group simplifies cleanup
 
+![Storage Account](screenshots/01storageaccountcreated.png)
+
 ---
 
 ## Step 2 – Blob Storage (Flat Namespace)
@@ -28,6 +30,10 @@ Observation:
 
 Engineering Concept:
 Flat namespace optimizes scalability via blob indexing.
+
+![Blob Container](screenshots/02blobcontainercreated.png)
+
+![Virtual Folder](screenshots/03virtual-folderdemonstration.png)
 
 ---
 
@@ -49,6 +55,10 @@ Hierarchical namespace enables:
 - ACLs
 - Big data workload compatibility
 
+![Data Lake Gen 2](screenshots/04datalakeupgrade.png)
+
+![Hierarchical Folder](screenshots/05hierarchicalfolderoptions.png)
+
 ---
 
 ## Step 4 – Azure Files
@@ -60,6 +70,8 @@ Hierarchical namespace enables:
 
 Engineering Concept:
 Azure Files supports lift-and-shift workloads using SMB/NFS protocols.
+
+![File Share](screenshots/06filesharecreated.png)
 
 ---
 
@@ -84,6 +96,10 @@ Engineering Concepts:
 - RowKey ensures uniqueness
 - Schema flexibility allows new properties without migration
 - Automatic Timestamp column tracks modifications
+
+![Azure Table](screenshots/07tableentityinsert.png)
+
+![Table Entities](screenshots/08tableentityinsert.png)
 
 ---
 
