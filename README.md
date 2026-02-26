@@ -26,7 +26,7 @@ Explored Blob Storage, Data Lake Gen2 (hierarchical namespace), Azure Files, and
 
 **Folder**: ./02-azure-storage-core-services
 
-### - **03 – Azure Cosmos DB (NoSQL):** 
+### **03 – Azure Cosmos DB (NoSQL):** 
 
 Implemented document-based storage, JSON item modeling, and SQL-like querying using Azure Cosmos DB for NoSQL.
 
