@@ -25,3 +25,9 @@ Provisioned Azure SQL Database with AdventureWorks sample data and executed rela
 Explored Blob Storage, Data Lake Gen2 (hierarchical namespace), Azure Files, and Azure Tables with NoSQL entity modeling.
 
 **Folder**: ./02-azure-storage-core-services
+
+### - **03 – Azure Cosmos DB (NoSQL):** 
+
+Implemented document-based storage, JSON item modeling, and SQL-like querying using Azure Cosmos DB for NoSQL.
+
+**Folder**: ./03-azure-cosmos-db-nosql-exploration
