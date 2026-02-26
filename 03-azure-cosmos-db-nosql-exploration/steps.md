@@ -14,6 +14,8 @@ The Cosmos DB account acts as the global distribution and management boundary fo
 Engineering Insight:
 Provisioned throughput ensures predictable performance by allocating Request Units (RUs).
 
+![Cosmos Account](screenshots/01-cosmos-account-created.png)
+
 ---
 
 ## Step 2 – Create Sample Database and Container
@@ -29,6 +31,8 @@ Quick Start provisions a working database and container with sample data for tes
 
 Engineering Insight:
 Containers are the scalability unit in Cosmos DB and define partitioning strategy.
+
+![Data Explorer](screenshots/02-data-explorer-sampledb.png)
 
 ---
 
@@ -62,6 +66,8 @@ Observations:
 Engineering Insight:
 Cosmos DB supports schema flexibility - new fields can be added without migration.
 
+![JSON File](screenshots/03-json-item-created.png)
+
 ---
 
 ## Step 4 – Query JSON Data
@@ -70,11 +76,15 @@ Executed default query:
 
 SELECT * FROM c
 
+![SELECT All](screenshots/04-sql-query-executed.png)
+
 Executed filtered query:
 
 SELECT *
 FROM c
 WHERE CONTAINS(c.name,"Helmet")
+
+![Filter Query](screenshots/05-sql-query-executed.png)
 
 Purpose:
 Demonstrated SQL-like querying of JSON documents using the NoSQL API.
