@@ -9,6 +9,8 @@
 Purpose:
 Workspace acts as the governance boundary for lakehouses, pipelines, notebooks, and reports.
 
+![Fabric WorkSpace](screenshots/01-workspace-created.png)
+
 ---
 
 ## Step 2 – Create Lakehouse
@@ -20,6 +22,8 @@ Workspace acts as the governance boundary for lakehouses, pipelines, notebooks, 
 
 Engineering Insight:
 Lakehouse unifies data lake storage with structured table semantics using Delta Lake.
+
+![Lakehouse](screenshots/02-lakehouse-created.png)
 
 ---
 
@@ -38,6 +42,10 @@ Pipeline executed successfully (~75M+ rows).
 Engineering Insight:
 Pipelines enable scalable ingestion without manual coding and support scheduling in production scenarios.
 
+![Pipeline Configured](screenshots/03-data-pipeline-configured.png)
+
+![Pipeline Success](screenshots/04-pipeline-success.png)
+
 ---
 
 ## Step 4 – Verify Managed Delta Table
@@ -48,6 +56,8 @@ Pipelines enable scalable ingestion without manual coding and support scheduling
 
 Engineering Insight:
 Loading directly into Tables creates managed Delta Lake tables that optimized queries.
+
+![Data Preview](screenshots/05-taxi_rides-table.png)
 
 ---
 
@@ -70,5 +80,7 @@ Average trip distance grouped by day of week.
 
 Engineering Insight:
 Lakehouse enables immediate SQL-based analytics without moving data to a separate warehouse.
+
+![SQL Query](screenshots/06-sql-query-results.png)
 
 ---
