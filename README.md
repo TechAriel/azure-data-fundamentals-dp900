@@ -31,3 +31,10 @@ Explored Blob Storage, Data Lake Gen2 (hierarchical namespace), Azure Files, and
 Implemented document-based storage, JSON item modeling, and SQL-like querying using Azure Cosmos DB for NoSQL.
 
 **Folder**: ./03-azure-cosmos-db-nosql-exploration
+
+### **04 – Microsoft Fabric Lakehouse Analytics:** 
+
+Ingested large-scale dataset using pipelines and analyzed Delta Lake tables via SQL endpoint.
+
+**Folder**: ./04-microsoft-fabric-lakehouse-analytics
+
