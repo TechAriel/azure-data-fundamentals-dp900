@@ -18,23 +18,29 @@ Focus areas include:
 
 Provisioned Azure SQL Database with AdventureWorks sample data and executed relational SQL queries including JOIN operations.
 
-**Folder**: ./01-azure-sql-database-relational-exploration
+**Folder**: `./01-azure-sql-database-relational-exploration`
 
 ### **02 – Azure Storage Core Services:** 
 
 Explored Blob Storage, Data Lake Gen2 (hierarchical namespace), Azure Files, and Azure Tables with NoSQL entity modeling.
 
-**Folder**: ./02-azure-storage-core-services
+**Folder**: `./02-azure-storage-core-services`
 
 ### **03 – Azure Cosmos DB (NoSQL):** 
 
 Implemented document-based storage, JSON item modeling, and SQL-like querying using Azure Cosmos DB for NoSQL.
 
-**Folder**: ./03-azure-cosmos-db-nosql-exploration
+**Folder**: `./03-azure-cosmos-db-nosql-exploration`
 
 ### **04 – Microsoft Fabric Lakehouse Analytics:** 
 
 Ingested large-scale dataset using pipelines and analyzed Delta Lake tables via SQL endpoint.
 
-**Folder**: ./04-microsoft-fabric-lakehouse-analytics
+**Folder**: `./04-microsoft-fabric-lakehouse-analytics`
+
+### **05 – Microsoft Fabric Real-Time Analytics:** 
+
+Implemented streaming ingestion using Eventstream and Eventhouse, and performed real-time aggregation using KQL queries.
+
+**Folder**: `./05-microsoft-fabric-real-time-analytics`
 
