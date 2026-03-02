@@ -24,6 +24,8 @@ Verified stream appeared on design canvas.
 Engineering Insight:
 Eventstream functions as a real-time ingestion pipeline, routing streaming events to downstream destinations.
 
+![Eventstream](screenshots/01-eventstream-configured.png)
+
 ---
 
 ## Step 3 – Create Eventhouse
@@ -34,6 +36,8 @@ Eventstream functions as a real-time ingestion pipeline, routing streaming event
 
 Engineering Insight:
 Eventhouse provides durable storage for streaming data and exposes it through a KQL database for high-performance querying.
+
+![Eventhouse](screenshots/02-eventhouse-created.png)
 
 ---
 
@@ -49,6 +53,8 @@ Verified destination appears in eventstream canvas.
 Engineering Insight:
 Linking Eventstream to Eventhouse enables continuous ingestion into a managed table optimized for time-series analytics.
 
+![Stream Destination](screenshots/03-table-destination-linked.png)
+
 ---
 
 ## Step 5 – Query Real-Time Data Using KQL
@@ -62,6 +68,7 @@ taxi
 ```
 Purpose:
 Validate successful ingestion and inspect schema.
+![Schema Inspection Query](screenshots/05-kql-take-100.png)
 
 ---
 
@@ -74,11 +81,19 @@ taxi
 ```
 Result:
 Pickup counts grouped into hourly time buckets.
+![Hourly Pickup Query](screenshots/06-kql-hourly-pickup-aggregation.png)
+
+Data Ingestion grouped into hourly time buckets
+![Hourly Ingestion Query](screenshots/05-kql-hourly-ingestion-aggregation.png)
 
 Observed dynamic updates as new streaming data arrived.
+![Dynamic Updates](screenshots/07-dynamic-updates.png)
 
 Engineering Insight:
 KQL enables fast aggregation of high-volume streaming datasets with time-based windowing functions.
+
+Eventhouse KQL Table Overview Analytics
+![Table Overview](screenshots/08-table-overview-analytics.png)
 
 ---
 
