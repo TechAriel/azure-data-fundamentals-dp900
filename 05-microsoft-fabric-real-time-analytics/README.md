@@ -1,6 +1,7 @@
 # Microsoft Fabric Real-Time Analytics
 
-This exercise explores real-time data ingestion and streaming analytics using Eventstream and Eventhouse in Microsoft Fabric as part of the Azure Data Fundamentals (DP-900) learning path.
+This exercise explores real-time data ingestion and streaming analytics using Eventstream and Eventhouse in Microsoft Fabric as part of the 
+>Azure Data Fundamentals (DP-900) learning path.
 
 ## Components Implemented
 
