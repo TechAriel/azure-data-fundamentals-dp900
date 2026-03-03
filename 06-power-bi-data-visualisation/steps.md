@@ -29,11 +29,14 @@ Orders:
 ```
 https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/raw/master/power-bi/orders.csv
 ```
+![Data Sample](screenshots/customers-loaded.png)
 
 All datasets loaded directly into the data model.
 
 Engineering Insight:
 Using multiple related tables enables relational modeling and cross-entity analysis.
+
+![Data Model](screenshots/data-model-view.png)
 
 ---
 
@@ -47,6 +50,8 @@ Using multiple related tables enables relational modeling and cross-entity analy
 Purpose:
 Ensure consistent monetary display in report visuals.
 
+![Revenue Field Format](screenshots/revenue-formatted.png)
+
 ---
 
 ### Create Product Hierarchy
@@ -57,6 +62,8 @@ Ensure consistent monetary display in report visuals.
 
 Engineering Insight:
 Hierarchies enable drill-down functionality in visualizations.
+
+![Hierarchy Format](screenshots/hierarchy-created.png)
 
 ---
 
@@ -99,6 +106,8 @@ Allow geographic visualizations within reports.
 Observed:
 Drill-down from Category to Product level.
 
+![Column Chart Drill-down](screenshots/column-chart-drilldown.png)
+
 ---
 
 ### Quantity by Category (Pie Chart)
@@ -109,6 +118,8 @@ Drill-down from Category to Product level.
 Purpose:
 Display proportional contribution by category.
 
+![Pie Chart](screenshots/pie-chart.png)
+
 ---
 
 ### Revenue by City (Map)
@@ -117,8 +128,12 @@ Display proportional contribution by category.
 - Generated map visualization
 - Interacted with map to observe cross-highlighting
 
+![Map Visual](screenshots/map-visual.png)
+
 Engineering Insight:
 Cross-highlighting enables interactive filtering across visuals.
+
+![Cross Highlighting](screenshots/cross-highlighting.png)
 
 ---
 
@@ -126,6 +141,8 @@ Cross-highlighting enables interactive filtering across visuals.
 
 - Saved report as .pbix file
 - Confirmed model, queries, and visuals persisted
+
+![Final Report](screenshots/final-report-layout.png)
 
 Optional:
 Publish to Power BI Service for sharing and collaboration.
