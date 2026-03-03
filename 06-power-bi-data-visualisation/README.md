@@ -1,6 +1,6 @@
-# Power BI Data Modeling & Visualization
+# Power BI Data Modelling & Visualisation
 
-This exercise explores data modeling and visualization using Power BI Desktop as part of the 
+This exercise explores data modelling and visualisation using Power BI Desktop as part of the 
 
 > Azure Data Fundamentals (DP-900) learning path.
 
@@ -11,7 +11,7 @@ The lab focuses on importing structured datasets, creating relationships and hie
 - Power BI Desktop installation
 - Web-based CSV data ingestion
 - Multi-table data model (Customers, Products, Orders)
-- Data formatting and categorization
+- Data formatting and categorisation
 - Hierarchy creation for drill-down analysis
 - Interactive report design (tables, charts, map)
 
@@ -26,18 +26,18 @@ Sample datasets provided via Microsoft Learning GitHub repository.
 ## Key Concepts Demonstrated
 
 - Importing data from web sources
-- Data modeling fundamentals
+- Data modelling fundamentals
 - Field formatting (Currency)
 - Hierarchies for drill-down analytics
-- Data categorization for map visuals
+- Data categorisation for map visuals
 - Cross-highlighting and interactive filtering
 - Multi-visual report composition
 
 ## Engineering Relevance
 
-This lab demonstrates the visualization layer of the data platform stack:
+This lab demonstrates the visualisation layer of the data platform stack:
 
-- Structured data modeling
+- Structured data modelling
 - Semantic layer preparation
 - Interactive dashboard development
 - Transforming raw tabular data into business insights
