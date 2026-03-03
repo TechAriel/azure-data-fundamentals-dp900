@@ -44,3 +44,9 @@ Implemented streaming ingestion using Eventstream and Eventhouse, and performed 
 
 **Folder**: `./05-microsoft-fabric-real-time-analytics`
 
+### **06 – Power BI Data Modeling & Visualization:** 
+
+Built a multi-table data model and interactive report using hierarchies, map visuals, and cross-highlighting in Power BI.
+
+**Folder**: `./06-power-bi-data-visualization`
+
